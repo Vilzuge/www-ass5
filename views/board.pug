@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+
+  ul
+  each value in board_info
+    li #{value.gamefield} - #{value.boardstatus} - #{value.playerinfo}
+
+  h2 Reset Board
+  button.btn.btn-primary(type='submit') Reset
