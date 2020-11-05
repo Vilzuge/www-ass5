@@ -14,8 +14,7 @@ var mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL || process.env.MONGO_URL,
 */
 
 // For local dev
-var mongoURL =
-  "mongodb+srv://<username>:<password>@villen-cluster.pxg9c.mongodb.net/<dbname>?retryWrites=true&w=majority";
+var mongoURL = "eimitään";
 
 if (mongoURL == null) {
   var mongoHost, mongoPort, mongoDatabase, mongoPassword, mongoUser;
